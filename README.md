@@ -1,18 +1,49 @@
-# UK E-commerce Data Analysis (SQL)
+# UK E-commerce Data Analysis using SQL
 
 ## 📌 Project Overview
-This project focuses on analyzing real-world UK e-commerce transactional data using SQL to uncover insights related to sales performance, customer behavior, product demand, returns, and time-based purchasing patterns.
+This project analyzes UK-based e-commerce transaction data to uncover insights related to sales performance, customer behavior, product demand, returns, and time-based purchasing patterns.
 
-The dataset contains line-level order information, meaning each order can have multiple products. The analysis was designed carefully to aggregate data at the correct business level (order, customer, product, and time).
+The project follows a complete analytics workflow:
+1. Data cleaning and preprocessing in Excel  
+2. Structured, phase-wise SQL analysis in MySQL  
 
-This project demonstrates practical SQL skills used in real analytics and freelancing work, not just academic queries.
+The dataset contains line-level transaction data, where each order can have multiple products. Care was taken to aggregate data at the correct business level (order, customer, product, and time).
 
 ---
 
 ## 🛠 Tools & Technologies
-- **MySQL**
-- **MySQL Workbench**
-- **Excel** (initial data cleaning & preprocessing)
+- **Excel** – Data cleaning & preprocessing  
+- **MySQL** – Data querying and analysis  
+- **MySQL Workbench** – SQL development environment  
+
+---
+
+## 🧹 Data Cleaning & Preparation (Excel)
+
+The raw dataset was cleaned and prepared in **Excel** before loading into MySQL.  
+Key data cleaning steps included:
+
+- Removed fully empty rows
+- Standardized column formats
+- Handled missing `CustomerID` values by labeling them as `Unknown`
+- Ensured identifier columns (`InvoiceNo`, `StockCode`) were treated as text due to alphanumeric values
+- Created derived columns:
+  - `InvoiceYear`
+  - `InvoiceMonth`
+  - `Line_revenue` (Quantity × UnitPrice)
+- Preserved negative quantities to correctly represent returns
+- Ensured date and time columns were properly formatted
+
+The cleaned dataset serves as the **single source of truth** for all SQL analysis.
+
+---
+
+## 📂 Dataset Access
+
+The cleaned dataset (~36 MB) exceeds GitHub’s file size limit.
+
+🔗 **Download cleaned dataset:**  
+https://docs.google.com/spreadsheets/d/1EO8B-grat7NyiSrfpEpPmLuE7Yo0aFzJ68UhQJNU2PA/edit?usp=sharing
 
 ---
 
