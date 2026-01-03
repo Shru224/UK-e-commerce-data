@@ -1,34 +1,29 @@
-# UK-e-commerce-data
+# UK E-commerce Data Analysis (SQL)
 
-# E-commerce SQL Analysis
+## 📌 Project Overview
+This project focuses on analyzing real-world UK e-commerce transactional data using SQL to uncover insights related to sales performance, customer behavior, product demand, returns, and time-based purchasing patterns.
 
-## Project Overview
-This project analyzes e-commerce transactional data using SQL to understand
-sales performance, customer behavior, product returns, and time-based trends.
+The dataset contains line-level order information, meaning each order can have multiple products. The analysis was designed carefully to aggregate data at the correct business level (order, customer, product, and time).
 
-## Tools Used
-- MySQL
-- MySQL Workbench
-- Excel (for initial data cleaning)
+This project demonstrates practical SQL skills used in real analytics and freelancing work, not just academic queries.
 
-## Key Business Questions Answered
-- What is the total revenue and average order value?
-- Who are the top customers by revenue?
-- Which products sell the most units?
-- Which products have the highest returns?
-- How many customers are repeat vs one-time buyers?
-- What are the peak sales hours and days?
+---
 
-## SQL Techniques Used
-- GROUP BY & aggregation
-- COUNT(DISTINCT)
-- CASE WHEN logic
-- Subqueries
-- Time-based analysis
-- Handling returns using negative quantities
+## 🛠 Tools & Technologies
+- **MySQL**
+- **MySQL Workbench**
+- **Excel** (initial data cleaning & preprocessing)
 
-## Project Structure
-- phase_1_data_understanding.sql
-- phase_2_sales_analysis.sql
-- phase_3_customer_analysis.sql
-- phase_4_product_analysis.sql
+---
+
+## 📂 Project Structure
+
+```text
+├── phase_1_data_understanding.sql
+├── phase_2_SALES_REVENUE_ANALYSIS.sql
+├── phase3_PRODUCT_PERFORMANCE.sql
+├── PHASE4_CUSTOMER_ANALYSIS.sql
+├── PHASE5_TIME_BEHAVIOR_ANALYSIS.sql
+├── PHASE6_DATA_QUALITY.sql
+├── sql_upwork_project1.sql
+└── README.md
