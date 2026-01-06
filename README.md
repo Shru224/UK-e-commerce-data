@@ -1,4 +1,4 @@
-# 📦 UK E-commerce Data Analysis (SQL & Python)
+# 📦 UK E-commerce Data Analysis (EXCEL|| SQL || PYTHON)
 
 ## 📌 Project Overview
 This project analyzes UK-based e-commerce transaction data to uncover insights related to sales performance, customer behavior, product demand, returns, and time-based purchasing patterns.
