@@ -71,10 +71,5 @@ https://docs.google.com/spreadsheets/d/1EO8B-grat7NyiSrfpEpPmLuE7Yo0aFzJ68UhQJNU
 │
 ├── notebooks/
 │   └── ecommerce_analysis.ipynb
-│
-├── outputs/
-│   ├── monthly_sales.csv
-│   ├── orders_by_hour.csv
-│   └── country_sales.csv
-│
+│ 
 └── README.md
