@@ -1,11 +1,11 @@
-# 📦 UK E-commerce Data Analysis (EXCEL|| SQL || PYTHON)
+# 📦 UK E-commerce Data Analysis (Excel | SQL | Python | Power BI)
 
 ## 📌 Project Overview
 This project analyzes UK-based e-commerce transaction data to uncover insights related to sales performance, customer behavior, product demand, returns, and time-based purchasing patterns.
 
-The project follows a **complete, end-to-end data analytics workflow**, starting from raw data cleaning and ending with analytics-ready outputs for dashboarding.
+It demonstrates a **complete, end-to-end data analytics workflow**, starting from raw data cleaning and ending with an interactive business dashboard.
 
-The dataset contains **line-level transaction data**, meaning each order can include multiple products. Special care was taken to aggregate data at the correct business level (order, customer, product, and time).
+The dataset contains **line-level transaction data**, meaning each order can include multiple products. Special care was taken to aggregate data at the correct business level (order, customer, product, and time) to ensure accurate insights.
 
 ---
 
@@ -13,7 +13,7 @@ The dataset contains **line-level transaction data**, meaning each order can inc
 1. **Excel** – Data cleaning and preprocessing  
 2. **SQL (MySQL)** – Metric validation and structured analysis  
 3. **Python (Jupyter Notebook)** – Exploratory & behavioral analysis  
-4. **BI-ready outputs** – Prepared for visualization tools (e.g., Power BI)
+4. **Power BI** – Interactive dashboard for stakeholder reporting  
 
 ---
 
@@ -26,6 +26,7 @@ The dataset contains **line-level transaction data**, meaning each order can inc
   - matplotlib  
   - seaborn  
 - **Jupyter Notebook** – Python analysis documentation  
+- **Power BI Desktop** – Dashboarding & visualization  
 
 ---
 
@@ -60,6 +61,9 @@ https://docs.google.com/spreadsheets/d/1EO8B-grat7NyiSrfpEpPmLuE7Yo0aFzJ68UhQJNU
 
 ## 📂 Project Structure
 ```text
+├── data_cleaning_excel/
+│   └── README.md
+│
 ├── sql/
 │   ├── phase_1_data_understanding.sql
 │   ├── phase_2_SALES_REVENUE_ANALYSIS.sql
@@ -71,5 +75,9 @@ https://docs.google.com/spreadsheets/d/1EO8B-grat7NyiSrfpEpPmLuE7Yo0aFzJ68UhQJNU
 │
 ├── notebooks/
 │   └── ecommerce_analysis.ipynb
-│ 
+│
+├── powerbi/
+│   ├── dashboard_overview.png
+│   └── README.md
+│
 └── README.md
